@@ -1,0 +1,23 @@
+.hide {
+  display: none;
+}
+
+.date {
+  top: 4px;
+}
+
+.posts-container {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .posts-container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .posts-container {
+    width: 90%;
+  }
+}
